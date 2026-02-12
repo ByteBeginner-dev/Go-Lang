@@ -1,0 +1,95 @@
+Go Language 
+1. Introduction to Go
+What and Why is Go
+History and Use Cases
+Go Tooling and Environment Setup
+Writing and Running Your First Go Program
+
+2. Core Language Fundamentals
+Variables (var, const, shorthand :=)
+Keywords and Identifiers
+Data Types (basic, composite, custom)
+Operators (arithmetic, logical, bitwise — left & right shifts)
+
+3. Control Flow
+Conditional Statements (if, else, switch)
+Loops (for, range) – with multiple examples
+Break, Continue, and Goto
+
+4. Functions and Pointers
+Function Declarations and Parameters
+Return Types (single, multiple)
+Higher-order Functions and Closures
+Pointers (*, &) – deep understanding and repetition
+
+5. Collections and Structures
+Arrays
+Slices
+Maps
+Structs (* - pointers to structs)
+Interfaces (usage and implementation)
+
+6. Concurrency and Parallelism
+Goroutines and Channels
+Concurrency vs Parallelism
+Race Conditions and Synchronization
+Patterns: Fan-in / Fan-out, Worker Pools, Pipelines
+sync and sync/atomic Packages
+
+7. Advanced Concurrency Concepts
+Role Guarding
+Event-driven Architectures
+Race Condition Avoidance
+Parallel Processing
+
+8. Web and APIs
+
+Fiber Framework (v2 & v3)
+Route-level and App-level Architecture
+REST API Design and Implementation
+WebSockets and Socket Programming
+File Streaming and Gzip Compression
+Building Custom Fiber Middleware Libraries
+
+9. Important Go Packages & Libraries
+Commonly used packages:
+fmt, sync, strconv, time, fiber, context, http,
+os, rand, net, sync/atomic, database/sql,
+math, io, strings, websocket
+
+10. Software Architecture & Design
+File Structure: Clean, Layered, Hexagonal, Event-Driven (NATS), Multi-tenant
+Go Design Patterns
+Monolithic vs Microservices
+Embedding and Composition
+Inheritance and Polymorphism (via interfaces & embedding)
+
+11. Data and State Management
+Event Sourcing and CQRS
+Transactions Handling
+Migrations
+Centralized Error Handling (custom and reusable)
+
+12. Security and Authentication
+Secure Headers and Cookies
+Input Validation and Session Management
+SSO and OAuth Services
+Paseto v4
+Argon2id Password Hashing
+Cryptography Basics
+
+13. Performance and Optimization
+Memory Management (Garbage Collector, Escape Analysis, Stack & Heap)
+CPU and Memory Profiling (Pre-Profile Optimization)
+Latency and Sleep Optimization
+Rate Limiting and API Versioning
+Secure File Handling | Cloudflare R2 Integration
+JSON Marshalling and Encoding
+
+14. Systems & Networking Concepts
+E-Poll, K-Queue (Event-driven IO)
+GRPC Basics and Implementation
+Worker Pools and Pipelines (Reinforced)
+
+15. Globalization & Localization
+Handling Global Languages and Character Sets
